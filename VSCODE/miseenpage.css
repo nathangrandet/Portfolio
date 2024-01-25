@@ -1,0 +1,21 @@
+/* Importation depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=GT+Sectra:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+
+body {
+    font-family: 'GT Sectra Fine Medium', serif; /* Utilisez le nom de la police fourni par Google Fonts */
+    font-weight: normal
+}
+
+/* Autres règles CSS pour le style de votre page */
+
+
+h1 {
+    color:gray;
+    font-family: 'Crimson Text', serif;
+}
+img {
+    width: auto; /* Définissez la largeur souhaitée */
+    height: 200px; /* Laissez la hauteur automatique pour conserver les proportions */
+}
