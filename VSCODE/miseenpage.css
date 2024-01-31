@@ -19,3 +19,23 @@ img {
     width: auto; /* Définissez la largeur souhaitée */
     height: 200px; /* Laissez la hauteur automatique pour conserver les proportions */
 }
+
+.bayou-bulle {
+    background-color: hsl(135, 40%, 48%);
+    border: 1px solid #2e0e0e;
+    padding: 10px;
+    border-radius: 8px;
+    bottom: 100%;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    width: 200px;
+}
+
+.bubble::before {
+    content: '';
+    top: 100%;
+    left: 50%;
+    margin-left: -10px; /* Ajuster la valeur en fonction de la taille de la pointe */
+    border: 10px solid transparent;
+    border-top-color: #972b2b;
+}
